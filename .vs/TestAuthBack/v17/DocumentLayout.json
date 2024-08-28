@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Personal Projects\\TestVI\\TestAuthBack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF5EFF2-5B94-4AB5-97F5-3F1FD656B8D2}|TestAuthBack\\TestAuthBack.csproj|d:\\personal projects\\testvi\\testauthback\\testauthback\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF5EFF2-5B94-4AB5-97F5-3F1FD656B8D2}|TestAuthBack\\TestAuthBack.csproj|solutionrelative:testauthback\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF5EFF2-5B94-4AB5-97F5-3F1FD656B8D2}|TestAuthBack\\TestAuthBack.csproj|d:\\personal projects\\testvi\\testauthback\\testauthback\\controllers\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF5EFF2-5B94-4AB5-97F5-3F1FD656B8D2}|TestAuthBack\\TestAuthBack.csproj|solutionrelative:testauthback\\controllers\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF5EFF2-5B94-4AB5-97F5-3F1FD656B8D2}|TestAuthBack\\TestAuthBack.csproj|d:\\personal projects\\testvi\\testauthback\\testauthback\\controllers\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF5EFF2-5B94-4AB5-97F5-3F1FD656B8D2}|TestAuthBack\\TestAuthBack.csproj|solutionrelative:testauthback\\controllers\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF5EFF2-5B94-4AB5-97F5-3F1FD656B8D2}|TestAuthBack\\TestAuthBack.csproj|d:\\personal projects\\testvi\\testauthback\\testauthback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9EF5EFF2-5B94-4AB5-97F5-3F1FD656B8D2}|TestAuthBack\\TestAuthBack.csproj|solutionrelative:testauthback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\TestVI\\TestAuthBack\\TestAuthBack\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "TestAuthBack\\Controllers\\RegistrationController.cs",
+              "ToolTip": "D:\\Personal Projects\\TestVI\\TestAuthBack\\TestAuthBack\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "TestAuthBack\\Controllers\\RegistrationController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAswC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T04:30:43.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\TestVI\\TestAuthBack\\TestAuthBack\\Controllers\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "TestAuthBack\\Controllers\\Models\\Response.cs",
+              "ToolTip": "D:\\Personal Projects\\TestVI\\TestAuthBack\\TestAuthBack\\Controllers\\Models\\Response.cs",
+              "RelativeToolTip": "TestAuthBack\\Controllers\\Models\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T12:41:48.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\TestVI\\TestAuthBack\\TestAuthBack\\Controllers\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "TestAuthBack\\Controllers\\Models\\Registration.cs",
+              "ToolTip": "D:\\Personal Projects\\TestVI\\TestAuthBack\\TestAuthBack\\Controllers\\Models\\Registration.cs",
+              "RelativeToolTip": "TestAuthBack\\Controllers\\Models\\Registration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T12:39:24.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Personal Projects\\TestVI\\TestAuthBack\\TestAuthBack\\appsettings.json",
+              "RelativeDocumentMoniker": "TestAuthBack\\appsettings.json",
+              "ToolTip": "D:\\Personal Projects\\TestVI\\TestAuthBack\\TestAuthBack\\appsettings.json",
+              "RelativeToolTip": "TestAuthBack\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-28T04:30:52.129Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
