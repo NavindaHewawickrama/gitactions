@@ -33,7 +33,7 @@ namespace TestAuthBack.Controllers
             }
             else
             {
-                return "error";
+                return "error data not inserted";
             }
             
         }
