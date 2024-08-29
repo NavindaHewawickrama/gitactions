@@ -4,6 +4,8 @@
     {
 
         public int statusCode {  get; set; }
+
+        required
         public string statusMessage { get; set; }
     }
 }
