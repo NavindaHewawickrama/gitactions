@@ -19,7 +19,7 @@ namespace TestProjectXUnit
 
             // Mock the configuration section for "DataConnection"
             var configSectionMock = new Mock<IConfigurationSection>();
-            configSectionMock.Setup(x => x.Value).Returns("DataConnection");
+            configSectionMock.Setup(x => x.Value).Returns("YourConnectionStringHere");
 
             _configMock.Setup(x => x.GetSection("ConnectionStrings:DataConnection"))
                        .Returns(configSectionMock.Object);

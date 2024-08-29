@@ -7,7 +7,9 @@
 
         required
         public string Username { get; set; }
+        required
         public string Passwords { get; set; }
+        required
         public string Email { get; set; }
     }
 }
