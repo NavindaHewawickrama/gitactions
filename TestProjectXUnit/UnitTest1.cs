@@ -8,32 +8,46 @@ namespace TestProjectXUnit
 {
     public class UnitTest1
     {
+       
+
         private readonly RegistrationController _controller;
+        private readonly Mock<IConfiguration> _configMock;
 
         public UnitTest1()
         {
-            var config = new Mock<IConfiguration>();
-            config.Setup(c => c.GetConnectionString(It.IsAny<string>())).Returns("DataConnection");
-            _controller = new RegistrationController(config.Object);
+            _configMock = new Mock<IConfiguration>();
+
+            // Mock the configuration section for "DataConnection"
+            var configSectionMock = new Mock<IConfigurationSection>();
+            configSectionMock.Setup(x => x.Value).Returns("DataConnection");
+
+            _configMock.Setup(x => x.GetSection("ConnectionStrings:DataConnection"))
+                       .Returns(configSectionMock.Object);
+
+            _controller = new RegistrationController(_configMock.Object);
         }
 
         [Fact]
         public void Registration_ReturnsDataInserted_WhenValidData()
         {
             // Arrange
-            var registration = new Registration
+            var registrationData = new Registration
             {
-                Username = "test",
-                Passwords = "password",
-                Email = "test@example.com"
+                Username = "testuser",
+                Passwords = "testpassword",
+                Email = "testuser@example.com"
             };
 
             // Act
-            var result = _controller.Registration(registration) as OkObjectResult;
+            var result = _controller.Registration(registrationData) as OkObjectResult;
+            if (result == null)
+            {
+                throw new Xunit.Sdk.XunitException("Registration method returned null. Check controller logic.");
+            }
 
             // Assert
             Assert.NotNull(result);
-            Assert.Equal("Data inserted", result.Value);
+            Assert.Equal("Data inserted", result?.Value);
         }
     }
 }
